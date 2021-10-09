@@ -9,3 +9,9 @@ npm install
 ```
 npm run devStart
 ```
+
+#### Or :
+
+```
+node server.js
+```
