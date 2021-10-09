@@ -1,0 +1,69 @@
+@font-face {
+  font-family: tulisan_keren;
+  src: url(Modeseven.ttf);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  background-color: #252525;
+  font-size: 1.5rem;
+  padding: 0rem 0.25rem;
+  color: #fff;
+  font-family: "tulisan_keren";
+}
+
+.container-chat {
+  width: 100%;
+  max-width: 600px;
+  border: 12px solid #555;
+  border-radius: 12px;
+  background: #333;
+}
+.jendela-chat {
+  height: 500px;
+  overflow: auto;
+}
+#output p {
+  padding: 14px 0px;
+  margin: 0 20px;
+  border-bottom: 2px solid #888;
+  color: rgb(192, 192, 192);
+}
+#output strong {
+  color: #fff;
+}
+.send-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  box-shadow: 0px -10px 15px 0px rgba(30, 30, 30, 0.5);
+}
+input {
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background-color: #333;
+  border: none;
+  outline: 0;
+  color: #fff;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.5rem;
+  font-family: "tulisan_keren";
+}
+button {
+  background: #333;
+  color: #888;
+  font-size: 1.2rem;
+  border: 0;
+  padding: 8px 0;
+  width: 10%;
+  border-radius: 0 0 2px 2px;
+  border-bottom: 1px solid #ccc;
+}
+button:hover {
+  color: #fff;
+}

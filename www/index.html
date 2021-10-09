@@ -1,0 +1,27 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Socket Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+    <span>Web Chat dengan Websocket</span>
+    <h2 id="nama"></h2>
+    <div class="container-chat">
+        <div class="jendela-chat">
+            <div id="output"></div>
+        </div>
+        <div class="send-container">
+            <span> > </span>
+            <input type="text" id="message" placeholder="Pesan">
+            <button id="send">&#10149;</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
